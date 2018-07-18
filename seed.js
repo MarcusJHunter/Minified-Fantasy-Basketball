@@ -4,52 +4,62 @@ var player_list =  [
 {
   name: Lebron James,
   team: Los Angeles Lakers,
-  ppg: 26.4
+  ppg: 26.4,
+  playerID: 20000571
 },
 {
   name:Kevin Durant,
   team: Golden State Warriors,
-  ppg:25.1
+  ppg:25.1,
+  playerID: 20000884
 },
 {
   name: Stephen Curry,
   team:Golden State Warriors,
-  ppg:26.4
+  ppg:26.4,
+  playerID: 20000485
 },
 {
   name:Kawhi Leonard,
-  team:San Antonio Spurs,
-  ppg:16.2
+  team:Toronto Raptors,
+  ppg:16.2,
+  playerID: 20000646
 },
 {
   name:James Harden,
   team:Houston Rockets,
-  ppg:30.4
+  ppg:30.4,
+  playerID: 20000544
 },
 {
   name:Russell Westbrook,
   team:Oaklahoma City Thunder,
-  ppg:25.4
+  ppg:25.4,
+  playerID: 20000877
 },
 {
   name:Chris Paul,
   team:Houston Rockets,
-  ppg:18.6
+  ppg:18.6,
+  playerID: 20000664
 },
 {
   name:Anthony Davis,
   team:New Orleans Pelicans,
-  ppg:28.1
+  ppg:28.1,
+  playerID: 20000468
 },
 {
   name:Giannis Antetokounmpo,
   team:Milwaukee Bucks,
-  ppg:27
+  ppg:27,
+  playerID: 20000497
 },
 {
-  name:Demarcus Cousins,
-  team:Golden State Warriors,
-  ppg:25.2
+  name:Joel Embid,
+  team:Philadelphia 76ers,
+  ppg:25.2,
+  playerID: 20000726
 },
 ];
 
@@ -109,7 +119,7 @@ var game_List = [
   game3:22
 }
 {
-  name:Demarcus Cousins,
+  name:Joel Embid,
   game1:21,
   game2:27,
   game3:35
