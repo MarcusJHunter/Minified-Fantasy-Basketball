@@ -1,16 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Fantasy BBall app</title>
+  <title>Fantasy B-Ball app</title>
   <!-- Styles -->
-<link rel="stylesheet" type="text/css" href="/styles/styles.css">
-<!-- Vendor -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- app scripts -->
-<script src="/scripts/app.js"></script>
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <!-- Vendor -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+  <!-- app scripts -->
+  <!-- <script src="/scripts/app.js"></script> -->
+  <script src="main.js"></script>
+
+
+
 </head>
-<body>
+<body id="main">
+
+  <nav class= "header">
+    <img class="nba-logo" src="./nba-logo.png">
+    <h1 class="main-title" >Playoff</h1>
+    <h2 class="second-title">#1 Site for Fantasy Basketball</h2>
+    <ul class="login">
+      <div id="abc">
+        <div id="popupContact">
+
+          <form action="#" id="form" method="post" name="form" >
+            <div>
+              <button id="close" onclick="div_hide()">Close</button>
+            </div>
+            <h2> Join Now!</h2>
+            <hr>
+            <input id="username" name="username" placeholder="Username" type="text">
+            <input id="password" name="password" placeholder="Password" type="text">
+            <a href="javascript:%20check_empty()" id="submit">Submit</a>
+          </form>
+        </div>
+      </div>
+      <div id="def">
+        <div id="popupContact">
+
+          <form action="#" id="form" method="post" name="form" >
+            <div>
+              <button id="close" onclick="div_hide()">Close</button>
+            </div>
+            <h2> Login</h2>
+            <hr>
+            <input id="username" name="username" placeholder="Username" type="text">
+            <input id="password" name="password" placeholder="Password" type="text">
+            <a href="javascript:%20check_empty()" id="submit">Submit</a>
+          </form>
+        </div>
+      </div>
+      <li><button id="login" onclick="div_show1()">Login</button></li>
+      <li><button id="signup" onclick="div_show()">Sign Up</button></li>
+    </ul>
+  </div>
+  </nav>
+
+
+
+
+<div class="dropdown">
+
+  <ul>
+    <h3>Add Players</h3>
+    <li><a href="">Lebron James, Los Angeles Lakers</a> </li>
+    <button id="addlebron" type="button" onclick="alert('Player Added'), addPlayer()">Add Player</button>
+    <li><a href=""> Kevin Durant, Golden State Warriors</a></li>
+    <button id="addkevin" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href=""> Stephen Curry, Golden State Warriors</a></li>
+    <button id="addsteph" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href=""> Kawhi Leonard, Toronto Raptors</a></li>
+    <button id="addkawhi" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href=""> James Harden, Houston Rockets</a></li>
+    <button id="addjames" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href="">Russell Westbrook, Oaklahoma City Thunder</a></li>
+    <button id="addrussell" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href="">Chris Paul, Houston Rockets</a></li>
+    <button id="addchris" type="button" onclick="alert('Player Added')" onclick="" >Add Player</button>
+    <li><a href="">Anthony Davis, New Orleans Pelicans</a></li>
+    <button id="addanthony" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href="">Giannis Antetokounmpo, Milwaukee Bucks</a></li>
+    <button id="addgiannis" type="button" onclick="alert('Player Added')">Add Player</button>
+    <li><a href="">Joel Embid, Philadelphia 76ers</a></li>
+    <button id="addjoel" type="button" onclick="alert('Player Added')">Add Player</button>
+  </ul>
+</div>
+<div class="row">
+  <div class="column">
+    <div class="search">
+      <label>Player Search:</label>
+      <input id="search" type="text" class="search-bar" name="Player" placeholder="Player Name">
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="playerInfo">
+      <h3> Player Info </h3>
+    </div>
+  </div>
+</div>
+
+<div class="week-results">
+  <button type="button" onclick="alert('Week 1')">Week 1</button>
+  <button type="button" onclick="alert('Week 2')">Week 2</button>
+  <button type="button" onclick="alert('Week 3')">Week 3</button>
+
+<!--
+<div class="row-2">
+  <h3>My team</h3>  -->
+<div class="my-team">
+  <h3>My team</h3>
+  <ul id="team" >
+    <li>1</li>
+    <li>2</li>
+  </ul>
+
+</div>
+</div>
+
+
+
+
+<div class="articles">
+  <h3>Breaking News</h3>
+  <ul>
+    <li><a href="#">Lebron To LA!</a></li>
+    <li><a href="#">Kawhi To TORONTO???</a></li>
+  </ul>
+</div>
+</div>
+
+
 
 </body>
+<footer >
+  <p class="copyright">&copy;</p>
+</footer>
 </html>
